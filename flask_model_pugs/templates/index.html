@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="/static/index.css">
+</head>
+<body>
+    <div class="title-block">Upload Dog or Cat picture (jpeg/jpg)</div>
+    <div class="input-block">
+        {% block content %}
+            <form action="/process" method="POST" enctype="multipart/form-data">
+                <div>
+                <!-- <label for="say">try me</label> -->
+                <input type="file" accept="image/jpg, image/jpeg" class="input_image" name="image" id="input-file"/>
+                <!-- <label for="input-file" class="input__file-button">Choose file</label> -->
+                </div>
+                <div class="send-button">
+                <button type="submit">Send</button>
+                </div>
+            </form>
+        {% endblock %}
+    </div>   
+</body>
+</html>
