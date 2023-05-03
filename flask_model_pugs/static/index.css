@@ -1,0 +1,44 @@
+.input-block{
+    margin:0 25% 0 25%;
+    width:50%;
+    background-color: rgb(47, 255, 248);
+    padding: 14px;
+    margin-top: 15px;
+}
+
+.title-block{
+    height: 50%;
+    margin:0 25% 0 25%;
+    width:50%;
+    background-color: rgb(47, 255, 248);
+    padding: 14px;
+    margin-top: 280px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.send-button{
+    margin-top: 10px;
+}
+
+.prediction{
+    margin:0 25% 0 25%;
+    width:50%;
+    padding: 14px;
+    margin-top: 15px;
+    margin-top: 280px;  
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+.input-pic{
+    padding: 14px;
+    margin:0 25% 0 25%;
+    width:50%;
+}
+
